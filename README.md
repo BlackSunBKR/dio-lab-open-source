@@ -49,6 +49,48 @@ Aprender o básico sobre contribuição no GitHub.
  Contribua no diretório "Community", criando um Profile README contendo informações sobre você que deseje compartilhar com a comunidade. Para isso, você pode inserir: badges indicando suas habilidades; cards com suas estatísticas no GitHub e projetos que riou, colaborou ou que deseje que outras pessoas colaborem. Além disso, você pode inserir também links para seus desafios de projeto e artigos na plataforma da [Digital Innovation One](https://www.dio.me/). <br>
  Inspire-se consultando os exemplos na pasta [`community`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/community), confira alguns utilitários na pasta [`utils`](https://github.com/digitalinnovationone/dio-lab-open-source/tree/main/utils) e use sua criatividade para criar o seu 😊💙.
 
+ ## Instruções
+
+ unity"
+A contribuição no diretório "Community" faz parte do Desafio do lab Contribuindo em um Projeto Open Source no GitHub da Digital Innovation One. Você pode colaborar criando um Profile README contendo informações sobre você que deseje compartilhar com a comunidade. Para isso, você pode inserir: badges indicando suas habilidades; cards com suas estatísticas no GitHub e projetos que criou, colaborou ou que deseje que outras pessoas colaborem. Além disso, você pode inserir também links para seus desafios de projeto e artigos na plataforma da Digital Innovation One.
+Inspire-se consultando os exemplos na pasta community, confira alguns utilitários na pasta utils e use sua criatividade para criar o seu 😊💙.
+
+### Instruções
+
+1. Faça um Fork deste repositório;
+
+2. Clone localmente: git clone https://github.com/SEU_USERNAME/dio-lab-open-source.git;
+
+3. Adicione o remote upstream para manter seu repositório local atualizado: git remote add upstream https://github.com/digitalinnovationone/dio-lab-open-source.git;
+
+   Utilize o comando git pull upstream main para baixar e mesclar as alterações no seu repositório local com base na branch main deste repositório original de onde você fez o fork, ou git fetch upstream main para baixar sem mesclar. Veja mais em: Primeiros Passos com Git e GitHub.
+
+4. Crie uma nova branch e nomeie como 'feat/community/SEU_USERNAME': 'git checkout -b feat/community/SEU_USERNAME';
+
+Exemplo: git checkout -b feat/community/digitalinnovationone
+
+Dentro da pasta community, crie um arquivo em Markdown (extensão .md) e nomeie com o mesmo nome do seu usuário no GitHub;
+
+Exemplo: community/digitalinnovationone.md
+
+Desenvolva o seu perfil. Para isso, você pode ver exemplos na pasta community e adicionar alguns dos utilitários presentes na pasta utils;
+
+Observação: Use os outros exemplos como inspiração e não cópia.
+
+Adicione suas alterações à "staging area" com o comando git add community/SEU_USERNAME.md;
+
+Observação: Você pode utilizar o comando git add . para adicionar todas as alterações de uma vez só.
+
+Crie um commit e adicione a mensagem indicando a adição do seu perfil git commit -m"feat: add SEU_USERNAME profile";
+
+Observação: Verificar a Convenção de Commits para escrever a mensagem do seu commit de forma clara e padronizada.
+
+Envie as alterações para o seu repositório remoto git push origin feat/community/SEU_USERNAME;
+
+Observação: Você pode utilizar o comando git push origin para mandar as alterações sem precisar especificar a URL, desde que você tenha feito o passo 3.
+
+Crie um Pull Request.
+
 
 > [!IMPORTANT]   
 > Confira as instruções antes de enviar a sua contribuição em [CONTRIBUTING.md](https://github.com/digitalinnovationone/dio-lab-open-source/blob/main/CONTRIBUTING.md)
